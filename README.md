@@ -75,15 +75,15 @@ No modules.
 
 ## Inputs
 
-| Name | Description | Type | Default |                     Required                      |
-|------|-------------|------|---------|:-------------------------------------------------:|
-| <a name="input_attributes"></a> [attributes](#input\_attributes) | Additional attributes (e.g. `1`). | `list(any)` | `[]` |                        no                         |                                                   | `list(any)` | `[]` | no |
-| <a name="input_delimiter"></a> [delimiter](#input\_delimiter) | Delimiter to be used between `organization`, `name`, `environment` and `attributes`. | `string` | `"-"` |                        no                         |
-+| <a name="input_enabled"></a> [enabled](#input\_enabled) | Set to false to prevent the module from creating any resources. | `bool` |                      `true`                       | no |
-+| <a name="input_environment"></a> [environment](#input\_environment) | Environment (e.g. `prod`, `dev`, `staging`). | `string` |                       `""`                        | no |
-+| <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. `name`,`application`. | `list(any)` | <pre>[<br>  "name",<br>  "environment"<br>]</pre> | no |
-+| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, eg 'terraform-do-modules' or 'sohanyadav' | `string` |                       `"sohanyadav"`                        | no |
-+| <a name="input_name"></a> [name](#input\_name) | Name  (e.g. `app` or `cluster`). | `string` |                       `""`                        | no |                                                    | `string` | `""` | no |
+| Name | Description                                                                          | Type | Default                                           | Required |
+|------|--------------------------------------------------------------------------------------|------|---------------------------------------------------|:--------:|
+| <a name="input_attributes"></a> [attributes](#input\_attributes) | Additional attributes (e.g. `1`).                                                    | `list(any)` | `[]`                                              | no |
+| <a name="input_delimiter"></a> [delimiter](#input\_delimiter) | Delimiter to be used between `organization`, `name`, `environment` and `attributes`. | `string` | `"-"`                                             | no |
+| <a name="input_enabled"></a> [enabled](#input\_enabled) | Set to false to prevent the module from creating any resources.                      | `bool` | `true`                                            | no |
+| <a name="input_environment"></a> [environment](#input\_environment) | Environment (e.g. `prod`, `dev`, `staging`).                                         | `string` | `""`                                              | no |
+| <a name="input_label_order"></a> [label\_order](#input\_label\_order) | Label order, e.g. `name`,`application`.                                              | `list(any)` | <pre>[<br>  "name",<br>  "environment"<br>]</pre> | no |
+| <a name="input_managedby"></a> [managedby](#input\_managedby) | ManagedBy, eg 'terraform-do-modules' or 'sohanyadav'                                 | `string` | `"sohanyadav"`                                    | no |
+| <a name="input_name"></a> [name](#input\_name) | Name  (e.g. `app` or `cluster`).                                                     | `string` | `""`                                              | no |
 
 ## Outputs
 
@@ -91,6 +91,6 @@ No modules.
 |------|-------------|
 | <a name="output_environment"></a> [environment](#output\_environment) | Normalized environment. |
 | <a name="output_id"></a> [id](#output\_id) | Disambiguated ID. |
-| <a name="output_managedby"></a> [managedby](#output\_managedby) | 'managedby' ,'sohanyadav' |
+| <a name="output_managedby"></a> [managedby](#output\_managedby) | 'managedby' ,'opsstation' |
 | <a name="output_name"></a> [name](#output\_name) | Normalized name. |
 <!-- END_TF_DOCS -->
