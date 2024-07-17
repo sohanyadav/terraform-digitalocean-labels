@@ -87,10 +87,10 @@ No modules.
 
 ## Outputs
 
-| Name | Description |
-|------|-------------|
-| <a name="output_environment"></a> [environment](#output\_environment) | Normalized environment. |
-| <a name="output_id"></a> [id](#output\_id) | Disambiguated ID. |
-| <a name="output_managedby"></a> [managedby](#output\_managedby) | 'managedby' ,'opsstation' |
-| <a name="output_name"></a> [name](#output\_name) | Normalized name. |
+| Name | Description               |
+|------|---------------------------|
+| <a name="output_environment"></a> [environment](#output\_environment) | Normalized environment.   |
+| <a name="output_id"></a> [id](#output\_id) | Disambiguated ID.         |
+| <a name="output_managedby"></a> [managedby](#output\_managedby) | 'managedby' ,'sohanyadav' |
+| <a name="output_name"></a> [name](#output\_name) | Normalized name.          |
 <!-- END_TF_DOCS -->
